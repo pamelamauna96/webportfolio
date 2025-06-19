@@ -7,7 +7,7 @@ const toggleBtntimes = document.querySelector('.bars');
 const linksContainer = document.querySelector('.links-container');
 const navContainer = document.querySelector('.nav-links');
 // then select the social icons
-const showIcons = document.querySelector('.social-icons');
+const showIcons = document.querySelector('.social-icons'); // This variable is declared but not used in the provided code.
 
 // Now, Let's set our function 
 
@@ -17,13 +17,13 @@ function toggleIcons(){
 
     if(linkContainerHeight === 0){
         linksContainer.style.height = `${navContainerHeight}px`;
-        toggleBtnBars.style.display = "block";
-        toggleBtntimes.style.display = "none";
+        toggleBtnBars.style.display = "block"; // This refers to '.times' (the 'X' icon)
+        toggleBtntimes.style.display = "none";  // This refers to '.bars' (the 'hamburger' icon)
     }
     else if(linkContainerHeight === navContainerHeight){  
         linksContainer.style.height = 0;
-        toggleBtntimes.style.display = "block";
-        toggleBtnBars.style.display = "none";
+        toggleBtntimes.style.display = "block"; // This refers to '.bars' (the 'hamburger' icon)
+        toggleBtnBars.style.display = "none"; // This refers to '.times' (the 'X' icon)
     }
 }
 toggleBtnIcons.addEventListener('click', toggleIcons);

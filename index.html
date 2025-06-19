@@ -4,27 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pam Portfolio</title>
-    <!-- font awesome link -->
+    <title>Portfolio</title>
     <link rel="stylesheet" href="css/all.min.css">
-    <!-- external stylesheet link -->
     <link rel="stylesheet" href="css/styles.css">
-    <!-- <link
-    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> -->
-</head>
+    </head>
 <body>
     <header>
         <div class="nav-center">
             <nav>
                 <a href="#"><img src="images/logo png.png" alt="logo" width="50" height="auto" class="logo"></a>
-                <!-- toggle btns -->
-                <div class="toggle-icon">
+                <div class="toggle-icon" role="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="nav-links-list">
                     <span class="toggle-btn bars"><i class="fas fa-bars"></i></span>
                     <span class="toggle-btn times"><i class="fas fa-times"></i></span>
                 </div>
             </nav>
 
-            <!-- ul container -->
             <div class="links-container">
                 <ul class="nav-links">
                     <li><a href="#" ><i class="fas fa-home active"></i></a></li>
@@ -34,31 +28,24 @@
                     <li><a href="#">Contact</a></li>
                     <a href="files/resume.pdf" class="resume" target="_blank" download>Resumé</a>
 
-                       <!-- social icons for header below -->
-                    <div class="social-icons">
+                       <div class="social-icons">
                         <a href="#"><i class="fab fa-facebook"></i></a>
                         <a href="#"><i class="fab fa-twitter"></i></a>
                         <a href="#"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fab fa-linkedin"></i></a>
                     </div>
-                     <!-- social icons for header ends here -->
-                </ul>
+                     </ul>
             </div>
-            <!-- resume link -->
-            
-        </div> 
-        <!-- nav center div above -->
-    </header>
+            </div> 
+        </header>
 
-    <!-- section 1 starts below -->
     <section class="section-1">
         <div class="container">
             <div class="about-desc">
                 <h2>Hi,</h2>
-                <h1 id="name">I'm Pam,</h1>
+                <h1 id="name">I'm, Pam</h1>
                 <h1 id="job">Fullstack developer</h1>
                 <p><q>Passionate about coding and Designing...</q></p>
-                <!-- contact me button -->
                 <a href="#" class="contact-button">
                     <div>
                         <span class="bg"></span>
@@ -68,26 +55,19 @@
                         </span>
                     </div>
                 </a>
-                    <!-- contact me button ends here -->
-
-                <!-- achievement section -->
-                <div class="achievement">
+                    <div class="achievement">
                     <div class="ach">
-                        <h1> ##</h1> <!--Add Completed Projects # here Placeholder-->
-                        <span>Completed Projects</span>
+                        <h1> ##</h1> <span>Completed Projects</span>
                     </div>
-                    <!--  -->
-                   <div class="ach">
+                    <div class="ach">
                     <h1>WIP</h1>
                     <span>Completed Designs</span>
                    </div>
                 </div>
             
             </div>
-            <!-- about desc div is above -->
-        </div>
+            </div>
         
-        <!-- social icons for the landing page--> 
         <div class="icons">
             <a href="#"><i class="fab fa-facebook"></i></a>
             <a href="#"><i class="fab fa-twitter"></i></a>
@@ -95,13 +75,11 @@
             <a href="#"><i class="fab fa-linkedin"></i></a>
         
         </div>
-        <!-- hero image div below -->
         <div class="hero-img">
             <img src="images/hoodie guy.png" alt="Hoodie man">
         </div>
     </section>
 
-    <!-- section 1 ends here -->
     <main class="page-content"> <section id="about-page" class="section"> <div class="container">
                 <div class="about-desc"> <h2>About Me</h2>
                     <p>
@@ -115,76 +93,71 @@
         </section>
     </main>
 
-<!-- section 2 starts below -->
-  <main class="page-content"> <section id="my-skills-page" class="section"> <div class="container">
+<main class="page-content"> <section id="my-skills-page" class="section"> <div class="container">
                 <div class="about-desc"> <h2>My Skills</h2>
                     <p>
-                        I'm Pam, a passionate Fullstack Software Engineer driven by a love for clean code and thoughtful design. I thrive at the intersection of front-end creativity and back-end logic, always seeking to create applications that are both functional and practical.
+                        I specialize in both front-end and back-end development, with a focus on creating responsive and user-friendly web applications. My skills include:
                     </p>
-
-                    <p>
-                        With a strong foundation in web technologies and an eye for detail, I enjoy transforming ideas into digital experiences. Outside of coding, you’ll find me exploring new technologies and continually learning.
-                    </p>
+                    <ul>
+                        <li>HTML, CSS, and PowerShell</li>
+                        <li>React.js and Node.js</li>
+                        <li>Responsive Web Design</li>
+                        <li>RESTful APIs and Microservices</li>
+                        <li>Version Control (Git)</li>
+                    </ul>
                     </div>
             </div>
         </section>
     </main>
 
-    <!-- section 2: My Work Section starts below --> 
     <div class="about-desc">
     <h2>My Work</h2>
     <div class="projects-grid">
     
-        <!-- Project 1: To Do List -->
-    <div class="project-card">
-      <h3>Project 1</h3>
+        <div class="project-card">
+      <h3>To Do List App</h3>
       <img src="images/Todolist.png" alt="Project 1 Screenshot">
       <p>A simple and intuitive productivity app that helps users organize tasks, set deadlines, and stay on top of daily goals with reminders and progress tracking.</p>
-      <a href="https://github.com/youruser/project1" target="_blank">GitHub</a>
+      <a href="https://github.com/" target="_blank">GitHub</a>
     </div>
 
-    <!-- Project 2 -->
     <div class="project-card">
-      <h3>Project 2</h3>
+      <h3>Dorm Buddy Admin Portal</h3>
       <img src="images/dormbuddyadminportal.png" alt="Project 2 Screenshot">
       <p>A centralized platform for dormitory management, featuring user account control, identity access provisioning, and administrative tools to streamline student housing operations.</p>
-      <a href="https://github.com/ErnestoLeiva/DormBuddy?tab=readme-ov-file" target="_blank">GitHub</a>
+      <a href="https://github.com/" target="_blank">GitHub</a>
     </div>
 
-    <!-- Project 3 -->
     <div class="project-card">
-      <h3>Project 3</h3>
+      <h3>Student Persona Manager</h3>
       <img src="images/CAP4104_project1.png" alt="Project 3 Screenshot">
       <p>An educational tool designed to create and manage student personas, supporting project-based learning and helping educators tailor instruction to diverse learner profiles.</p>
-      <a href="https://github.com/youruser/project3" target="_blank">GitHub</a>
+      <a href="https://github.com/" target="_blank">GitHub</a>
     </div>
     
     
     
-    <!-- Project 4 placeholder -->
-    <!-- Project 5 placeholder -->
-    <!-- Project 6 placeholder -->
-
-  </div>
+    </div>
 </div>
 
-    <!--      
-    <main class="page-content"> <section id="work-page" class="section"> 
-        <div class="about-desc"> <h2>My Work</h2>
-            <p>Smart Budget Tracker</p>
-            <p>A React + Firebase app to help users track expenses and set saving goals. Built during my capstone project.</p>
-            <a href="https://github.com/pamelamauna96/TTA" target="_blank">View on GitHub</a> |
-            <img src="images/Todolist.png" alt="To_Do_List" style="width: 50%;">
-        </div>
+<section id="contact" class="section">
+  <div class="container about-desc">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
 
-    </section>
-    </main>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
 
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
 
-    -->
+      <button type="submit" class="submit-btn">Send Message</button>
+    </form>
+  </div>
+</section>
 
-
-    <!-- my bubbles -->
     <ul class="logo-animation">
         <li><img src="images/logo png.png" width="200" height="auto"></li>
         <li><img src="images/logo png.png" width="00" height="auto"></li>
